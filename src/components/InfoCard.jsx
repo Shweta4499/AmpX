@@ -101,11 +101,16 @@ export default function InfoCard({ label, onClose }) {
         </motion.button>
       </div>
 
-       {/* 📜 Content section with component and animation */}
+      {/* Content */}
       <div className="overflow-y-auto max-h-[calc(100vh-120px)] px-4 pb-6 pt-4">
       {DynamicComponent ? <DynamicComponent /> : <p>Section not found.
 </p>}
 
+        {lottieAnim && (
+          <div className="max-w-sm mx-auto mt-4">
+            <Lottie animationData={lottieAnim} loop autoplay />
+          </div>
+        )}
        
         </div>
       
