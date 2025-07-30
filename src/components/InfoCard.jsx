@@ -63,8 +63,26 @@ export default function InfoCard({ label, onClose }) {
   const playClick = useSound('/assets/sounds/click.mp3');
 
   useEffect(() => {
+    // 🎉 Trigger confetti on mount
     confetti({ particleCount: 100, spread: 50, origin: { y: 0.6 } });
+  
+    // 🧠 Push a new state to browser history
+    window.history.pushState({ infoCardOpen: true }, '');
+  
+    // 🧹 Listen for browser back action
+    const handlePopState = (event) => {
+      playClick();
+      onClose();
+    };
+  
+    window.addEventListener('popstate', handlePopState);
+  
+    // 🧼 Cleanup: remove listener
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
   }, []);
+  
 
   return (
     <motion.div

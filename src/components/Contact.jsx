@@ -65,6 +65,18 @@ export default function Contact() {
             Shweta Gurav
           </a>
         </p>
+
+        <p>
+            💻 <span className="font-semibold">GitHub:</span>{' '}
+            <a
+              href="https://github.com/Shweta4499" // Replace with your actual GitHub username if different
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-800 hover:underline"
+            >
+              @shwetagurav
+            </a>
+          </p>
       </div>
       </div>
       {/* Footer Note */}

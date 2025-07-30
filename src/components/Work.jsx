@@ -3,30 +3,78 @@ import React from "react";
 // Yeh array mein saare projects ki details store ki gayi hain
 const projects = [
   {
-    title: "Mirror Landing Page",
-    description: "3D mirror landing page with GSAP & ScrollTrigger.",
-    image: "/assets/projects/mirror.jpg",
-    preview: "https://shweta4499.github.io/Lumoir/",
-  },
+    title: "💼 Freelance Portfolio Website",
+    description: "A professional, fully responsive portfolio website designed for a freelance client to showcase their skills, projects, and contact information. Built with modern frontend technologies, animated scroll effects, and a sleek UI for both desktop and mobile users.",
+    image: "/assets/projects/pruthvi.jpg", // ← Replace with actual image path
+    preview: "https://pruthviraj-sand.vercel.app/" // ← Replace with actual deployed link
+  }
+  ,
   {
-    title: "📽️ Animated Loader",
-    description: "Custom video and Lottie loader experience for brand intro.",
+    title: "🧑‍💻 Personal Portfolio Website",
+    description: "A futuristic, animated portfolio website built with React, TailwindCSS, and Three.js. Includes 3D interactions, scroll-based animations, a dynamic project showcase, and Firebase backend for live content updates. Designed to be both elegant and fully responsive.",
+    image: "/assets/projects/profile.png", // Replace with actual image path
+    preview: "https://amp-x.vercel.app/" // Replace with your deployed link
+  }
+  ,
+  {
+    title: "📽️ Landing Page for Strawberry Farm",
+    description: "An immersive landing experience featuring a custom-branded intro with background video and a smooth Lottie animation loader. Designed to highlight freshness and nature-driven storytelling for the farm's digital identity.",
     image: "/assets/projects/strawberry.jpg",
-    preview: "https://your-preview-link.com/loader",
-  },
+    preview: "https://strawberry-farm-one.vercel.app",
+  }
+  ,
+  {
+    title: "🛒 Ecommerce Website",
+    description: "A modern and fully responsive Ecommerce platform built with React.js and styled with CSS Modules. Features include dynamic product pages, category filtering, cart functionality, and smooth animations. Designed for seamless user experience and optimized performance across devices.",
+    image: "/assets/projects/ecom.jpg", // Replace with your actual image path
+    preview: "https://ecommerce-seven-woad-44.vercel.app/" // Replace with your deployed link
+  }
+  ,
   {
     title: "🍕 Pizza Website",
     description: "SVG-based interactive pizza builder with animated toppings and 3D style.",
     image: "/assets/projects/pizza.jpg",
-    preview: "https://your-preview-link.com/pizza",
+    preview: "https://shweta4499.github.io/snackstack-animation/",
   },
+  {
+    title: "🌐 Brand Website Preview – Digital Design Agency",
+    description: "A modern, fully responsive website built for a digital design agency. Features include smooth scroll transitions, interactive sections, and adaptive layouts that ensure a seamless experience across all devices. Crafted to showcase creativity, services, and brand identity with clean UI and subtle motion effects.",
+    image: "/assets/projects/agency.jpg",
+    preview: "https://youtu.be/_TxT6FxEqUA",
+  },
+  {
+    title: "Mirror Landing Page",
+    description: "3D mirror landing page with GSAP & ScrollTrigger.",
+    image: "/assets/projects/mirror.jpg",
+    preview: "https://youtu.be/FY3ml3qAia0",
+  },
+  
  
   {
     title: "Coffee GSAP Site",
     description: "Smooth animated coffee-themed page using GSAP + CSS.",
     image: "/assets/projects/coffie.jpg",
-    preview: "https://shweta4499.github.io/coffee-site/",
+    preview: "https://youtu.be/j55O4xlG-dQ",
+
   },
+
+ 
+ 
+  
+  {
+    title: "🎬 Netflix Clone (React)",
+    description: "A clean, responsive Netflix clone built with React.js. Replicates the Netflix homepage UI with reusable components, dynamic routing, hover effects, and mock content cards — all designed for a smooth browsing experience.",
+    image: "/assets/projects/Netflix.png",
+    preview: "https://github.com/Shweta4499/Netflix-clone.git",
+  }
+  ,{
+    title: "🌿 Lekha Hair Oil – Ayurvedic Product Website",
+    description: "A beautifully crafted, fully responsive Ayurvedic hair oil website built using pure HTML, CSS, and JavaScript. Features elegant scroll animations, soothing visuals, product highlights, and an organic color palette to reflect the brand's natural essence. Ideal for wellness, skincare, or herbal product showcases.",
+    image: "/assets/projects/lekha.png", // Make sure this image exists in your public folder
+    preview: "https://youtu.be/PkPDHe8bHvA" // Replace with actual deployed link
+  }
+  
+  
   // Add more projects as needed
 ];
 
