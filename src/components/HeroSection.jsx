@@ -13,7 +13,7 @@ export default function HeroSection({ onItemClick, darkMode }) {
     { label: 'about', src: '/assets/about.png' },
     { label: 'skills', src: '/assets/icons/skills.png' },
     { label: 'work', src: '/assets/icons/work.png' },
-    { label: 'faq', src: '/assets/icons/faq.png' },
+    { label: 'faq', src: '/assets/icons/FAQ.png' },
     { label: 'contact', src: '/assets/icons/contacts.png' },
     { label: 'experience', src: '/assets/icons/experience.png' },
     { label: 'resume', src: '/assets/icons/resume.png' },
