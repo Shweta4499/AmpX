@@ -15,7 +15,17 @@ const projects = [
     image: "/assets/projects/profile.png", // Replace with actual image path
     preview: "https://amp-x.vercel.app/" // Replace with your deployed link
   }
+
   ,
+  {
+    title: "PureMark Agency 🚀",
+    description: "PureMark Agency empowers businesses with performance-driven marketing solutions, combining strategy and creativity to deliver real results.",
+    image: "/assets/projects/pure.jpg", // Replace with actual image path
+
+    preview: "https://puremarkagency.vercel.app/", // ✅ Add https://
+  }
+  ,
+  
   {
     title: "📽️ Landing Page for Strawberry Farm",
     description: "An immersive landing experience featuring a custom-branded intro with background video and a smooth Lottie animation loader. Designed to highlight freshness and nature-driven storytelling for the farm's digital identity.",
