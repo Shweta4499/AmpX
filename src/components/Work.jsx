@@ -5,8 +5,8 @@ const projects = [
   {
     title: "💼 Freelance Portfolio Website",
     description: "A professional, fully responsive portfolio website designed for a freelance client to showcase their skills, projects, and contact information. Built with modern frontend technologies, animated scroll effects, and a sleek UI for both desktop and mobile users.",
-    image: "/assets/projects/pruthvi.jpg", // ← Replace with actual image path
-    preview: "https://pruthviraj-sand.vercel.app/" // ← Replace with actual deployed link
+    image: "/assets/projects/pruthvi.png", // ← Replace with actual image path
+    preview: "https://kulboyraj.com/" // ← Replace with actual deployed link
   }
   ,
   {
@@ -15,8 +15,21 @@ const projects = [
     image: "/assets/projects/profile.png", // Replace with actual image path
     preview: "https://amp-x.vercel.app/" // Replace with your deployed link
   }
-
-  ,
+,
+  {
+    title: "☕ Cozy Cafe Website",
+    description: "A modern, fully responsive website built for a cafe. Features include an interactive menu, reservation form, location map, and smooth animations to provide a warm and inviting user experience. Designed to showcase the cafe's brand and ambiance effectively.",
+    image: "/assets/projects/cafe.png", // ← Replace with actual image path
+    preview: "https://cafe-website-sable-nine.vercel.app/", // ← Replace with your deployed link
+  },
+  
+  {
+    title: "🧶 Crochet Shop Website",
+    description: "An elegant and responsive ecommerce-style website built for a crochet and handmade crafts shop. Features product showcases, category browsing, cart functionality, and a warm aesthetic to match the handmade brand identity. Optimized for both mobile and desktop users with smooth navigation and clean UI.",
+    image: "/assets/projects/crochet.png", // ← Replace with actual image path
+    preview: "https://crochet-six.vercel.app/", // ← Replace with actual deployed link
+  },
+  
   {
     title: "PureMark Agency 🚀",
     description: "PureMark Agency empowers businesses with performance-driven marketing solutions, combining strategy and creativity to deliver real results.",
@@ -39,6 +52,14 @@ const projects = [
     image: "/assets/projects/ecom.jpg", // Replace with your actual image path
     preview: "https://ecommerce-seven-woad-44.vercel.app/" // Replace with your deployed link
   }
+  
+  ,{
+    title: "🌿  Hair Oil Product Website",
+    description: "A beautifully crafted, fully responsive Ayurvedic hair oil website built using pure HTML, CSS, and JavaScript. Features elegant scroll animations, soothing visuals, product highlights, and an organic color palette to reflect the brand's natural essence. Ideal for wellness, skincare, or herbal product showcases.",
+    image: "/assets/projects/oil.png", // Make sure this image exists in your public folder
+    preview: "https://oil-dusky.vercel.app/" // Replace with actual deployed link
+  }
+  
   ,
   {
     title: "🍕 Pizza Website",

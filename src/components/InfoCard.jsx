@@ -20,6 +20,7 @@ import Experience from './Experience';
 import Resume from './Resume';
 import SmilingStar from './SmilingStar';
 import Star from './Star';
+import Projects from './Work';
 
 // 🔵 Background gradients for different sections
 const bgColors = {
@@ -48,7 +49,7 @@ export default function InfoCard({ label, onClose }) {
   const Components = {
     about: About,
     skills: SkillsSection,
-    work: Work,
+    projects:Projects,
     faq: FAQ,
     contact: Contact,
     experience:Experience,
