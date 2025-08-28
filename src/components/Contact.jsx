@@ -33,7 +33,7 @@ export default function Contact() {
         <p>
           📱 <span className="font-semibold">Instagram:</span>{' '}
           <a
-            href="https://instagram.com/ampx_1007"
+            href="https://www.instagram.com/ampx_23/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-pink-500 hover:underline"
